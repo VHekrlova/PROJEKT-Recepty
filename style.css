@@ -88,3 +88,20 @@ background-position: center;
 	background-size: cover;
 	background-position: center;
 }	
+
+@media screen and (min-width:480px) {
+	.tablet {
+		height: 100wh;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.small {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.small .recept {
+		flex:1 1 50%;
+	}
+}
